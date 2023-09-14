@@ -87,6 +87,11 @@ Navigation
 
 .logo {
   color: white;
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .nav-center .nav-item:not(:last-child) {
@@ -126,6 +131,7 @@ Navigation
     transition: all 300ms ease-in-out;
   }
 
+
   .nav-list.open {
     left: 0;
     width: 100%;
@@ -145,6 +151,14 @@ Navigation
     display: block;
     color: white;
     font-size: 3rem;
+  }
+
+  .logo{
+    width: 50px;
+   height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
   }
 }
 
@@ -255,7 +269,7 @@ Navigation
 
 @media (max-width: 567px) {
   .header .content h1 {
-    font-size: 3rem;
+    font-size: 20px;
     margin-bottom: 2rem;
   }
 
@@ -619,3 +633,37 @@ footer .row {
     row-gap: 3rem;
   }
 }
+ 
+
+/* PAGE TWO */
+
+/* body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--blue);
+  color: var(--black);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.image {
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.description {
+  flex: 5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+} */
